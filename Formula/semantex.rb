@@ -14,22 +14,22 @@ class Semantex < Formula
   on_macos do
     on_arm do
       url "https://github.com/MisterTK/semantex/releases/download/v#{version}/semantex-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "ae64edb6b9aefd58dc542d622961b74a4c9c2f177a81143b212eb4089f86f0de"
+      sha256 "f9dd8d7a2d9d4b631b1693f3f71cd72991aa278ea6638caf7e3f6ff005ce0cfe"
     end
     on_intel do
       url "https://github.com/MisterTK/semantex/releases/download/v#{version}/semantex-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "5f2cdd3f49c7f69a54e9992f27c9ba73188dfa9ff90996788769033ec1bafc80"
+      sha256 "ce294108e9f28d002922ef2ebd85564e96f03e0256d7a195457e1231a50c8d71"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/MisterTK/semantex/releases/download/v#{version}/semantex-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "31bf526ff4709975b5572105ec98db6345380cc2779f412ed5db7fb737a58e43"
+      sha256 "cbca8aea74d320bcf4190774f6c28049f08100a7f223f53f096d7bd4a19c028f"
     end
     on_intel do
       url "https://github.com/MisterTK/semantex/releases/download/v#{version}/semantex-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "022dcb2e28efa8589d98ede8e00231b48c2755857a14eba95b6297987823522d"
+      sha256 "b9dbbe9d1e03ac332858c94324daf7751b634ee549b868f8644056307815cd1b"
     end
   end
 
