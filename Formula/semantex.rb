@@ -8,28 +8,28 @@
 class Semantex < Formula
   desc "Semantic code search — hybrid ColBERT + BM25 retrieval engine"
   homepage "https://semantex.dev"
-  version "1.0.2"
+  version "1.0.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/MisterTK/semantex/releases/download/v#{version}/semantex-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "93c413dd371d38dc0fd4b2dfa2ec1279c9dc45674cf497b38fe023664c3f2b4c"
+      sha256 "a47caa89c504debd2dc90665336e2fb220b28130e4d3e6a323ab1753841ce3d5"
     end
     on_intel do
       url "https://github.com/MisterTK/semantex/releases/download/v#{version}/semantex-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "50619a186405c06237c184b7b72e13374e05bd835e903dcff2726ea1c88668f1"
+      sha256 "a2721cf215ecf3f9bda568c72a17f8dea193df1f692df9fc69bdb6715b467071"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/MisterTK/semantex/releases/download/v#{version}/semantex-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8f977aa76bd457688dcd72b239f91378a1b06cabf36af27fadc2028a9d1d4a39"
+      sha256 "406237430fe561025af747a80859a8ef3901c7870841f73d9497a646713c145c"
     end
     on_intel do
       url "https://github.com/MisterTK/semantex/releases/download/v#{version}/semantex-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "96a56d39b22093efbf80f886446d642e252c78bb64728ceeca775cab21b006f6"
+      sha256 "ca5f53393bd30f6c240c51b2325825ce9e807726960e817899802517e61b781e"
     end
   end
 
